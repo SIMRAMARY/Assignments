@@ -10,7 +10,6 @@ body { display:flex;
     height: 500px;
     width: 350px;
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
-    ;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -41,4 +40,5 @@ input {
     height: 20px;
     width: 200px;
     border-radius: 5px;
+
 }
