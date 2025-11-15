@@ -1,0 +1,44 @@
+body { display:flex; 
+    justify-content:center; 
+    align-items:center; 
+    height:100vh;
+    background-image: url("https://img.freepik.com/free-vector/abstract-colorful-shapes-background_361591-2848.jpg?semt=ais_incoming&w=740&q=80"); 
+    background-size: cover;
+}
+
+.form {
+    height: 500px;
+    width: 350px;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    ;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.inner-div {
+   display: flex;
+   flex-direction: column;
+}
+
+button {
+    width: 200px;
+    padding:5px;
+
+    background-color: rgb(250, 91, 250);
+    align-self: center;
+    border-radius: 10px;
+}
+
+input {
+    height: 20px;
+    width: 200px;
+    border-radius: 5px;
+}
